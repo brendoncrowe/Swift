@@ -1,5 +1,7 @@
 # JSON Decoding 
 
+Code shwocasing how to decode JSON in a playground 
+
 ``` Swift
 struct Person: Codable {
     let name: String
@@ -20,8 +22,9 @@ let jsonData = """
 
 // Person is the object that is being decoded/parsed to
 // Person.self implies that the JSON root level object is a dictionary
-// [Person.self] implies that the JSON root level object is an array
-// try must always be used when decoding data
+// [Person].self implies that the JSON root level object is an array
+// try must always be used when the method could throw an error (i.e could not parse the data)
+
 do {
     let person = try JSONDecoder().decode(Person.self, from: jsonData)
     print("Person's name is \(person.name) and occupation is \(person.occupation).")
