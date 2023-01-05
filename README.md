@@ -2,7 +2,10 @@
 
 This repo contains all things Swift and UIKit that I am currently or have been exploring.
 
-### Links
+### JSON </br> 
+***
+[JSON Decoding](JSON/JSONDecoding.md)
 
-[JSON Decoding](JSON/JSONDecoding.md) </br>
+### Functions
+***
 [Search Bar Filter Function](HelperFunctions/SearchBarFilter.md)
