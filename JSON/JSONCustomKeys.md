@@ -28,4 +28,7 @@
             }
         }
     }
+        enum AppError: Error {
+        case missingValue
+    }
 ```
