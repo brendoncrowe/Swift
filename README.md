@@ -4,7 +4,8 @@ This repo contains all things Swift and UIKit that I am currently or have been e
 
 ### JSON </br> 
 ***
-[JSON Decoding](JSON/JSONDecoding.md)
+[JSON Decoding](JSON/JSONDecoding.md) </br>
+[JSON Decoding Custom Keys](JSON/JSONCustomKeys.md)
 
 ### Functions
 ***
