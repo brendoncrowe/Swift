@@ -1,6 +1,4 @@
-# JSON Decoding 
-
-### Simple Objects
+### Decoding Simple Objects
 ``` Swift
  import UIKit
 
