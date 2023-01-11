@@ -13,4 +13,4 @@ This repo contains all things Swift and UIKit that I am currently or have been e
 [Flattening Arrays](Arrays/FlatteningArrays.md)
 
 ## Table View
-[Table View Setup](
+[Table View Setup](TableViews/SettingUpTableView.md)
