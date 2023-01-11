@@ -10,3 +10,7 @@ This repo contains all things Swift and UIKit that I am currently or have been e
 ## Functions
 ***
 [Search Bar Filter Function](HelperFunctions/SearchBarFilter.md)
+
+## Arrays
+***
+[Flattening Arrays](Arrays/FlatteningArrays.md)
