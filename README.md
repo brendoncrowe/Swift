@@ -7,7 +7,8 @@ This repo contains all things Swift and UIKit that I am currently or have been e
 [JSON Decoding Custom Keys](JSON/JSONCustomKeys.md)
 
 ## Functions
-[Search Bar Filter Function](HelperFunctions/SearchBarFilter.md)
+[Search Bar Filter Function](HelperFunctions/SearchBarFilter.md) </br>
+[NetWork Helper Function](HelperFunctions/NetworkHelper.md)
 
 ## Arrays
 [Flattening Arrays](Arrays/FlatteningArrays.md)
