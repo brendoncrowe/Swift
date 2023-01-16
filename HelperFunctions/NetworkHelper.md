@@ -4,13 +4,15 @@
 Newtork Helper is a class built around URLSession. The NetworkHelper wrapper class returns a Data object given a url String. This String can be an image url string or and API endpoint url String or any given GET url.
 
 ``` Swift 
-enum NetworkError: Error {
-    case badURL(String)
-    case networkClientError(Error)
-    case noResponse
-    case noData
-    case badStatusCode(Int)
-    case decodingError(Error)
+
+enum AppError: Error {
+  case badURL(String) // associated value
+  case noResponse
+  case networkClientError(Error) // no internet connection
+  case noData
+  case decodingError(Error)
+  case badStatusCode(Int) // 404, 500
+  case badMimeType(String) // image/jpg
 }
 
 class NetworkHelper {
