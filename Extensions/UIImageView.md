@@ -18,8 +18,15 @@ extension UIImageView {
         // this line of code adds the UIActivityIndicatorView to the UIImageView
         activityIndicator.startAnimating()
         
+        guard let url = urlString else { 
+        completion(.failure(.badURL(urlString)))
+        return
+        }
+        
+        let request = URLRequest(url: url)
+        
         // because NetworkHelper is capturing activityIndicator, you must declare a weak reference
-        NetworkHelper.shared.performDataTask(with: urlString) { (result) in
+        NetworkHelper.shared.performDataTask(with: request) { (result) in
             DispatchQueue.main.async {
                 activityIndicator.stopAnimating()
             }
