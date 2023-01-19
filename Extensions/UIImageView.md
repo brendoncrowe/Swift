@@ -18,7 +18,7 @@ extension UIImageView {
         // this line of code adds the UIActivityIndicatorView to the UIImageView
         activityIndicator.startAnimating()
         
-        guard let url = urlString else { 
+        guard let url = URL(string: urlString) else { 
         completion(.failure(.badURL(urlString)))
         return
         }
