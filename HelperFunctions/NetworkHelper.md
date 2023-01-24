@@ -29,15 +29,8 @@ class NetworkHelper {
     session = URLSession(configuration: .default)
   }
   
-  func performDataTask(with urlString: String,
+  func performDataTask(with urlString: URLRequest,
                        completion: @escaping (Result<Data, AppError>) -> ()) {
-    
-    // creating a URL from the given String
-    guard let url = URL(string: urlString) else {
-      // handle bad url error case
-      completion(.failure(.badURL(urlString)))
-      return
-    }
     
     // two states on dataTask, resume() and suspended by default
     // suspended simply won't perform network request
