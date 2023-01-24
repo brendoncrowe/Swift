@@ -14,7 +14,8 @@ This repo contains all things Swift and UIKit that I am currently or have been e
 [Flattening Arrays](Arrays/FlatteningArrays.md)
 
 ## Table View
-[Table View ](TableViews/TableView.md)
+[Table View ](TableViews/TableView.md) </br>
+[Table View Sections](TableViews/TableViewSections.md)
 
 ## Extensions
 [Bundle](Extensions/Bundle-Main.md) </br>
