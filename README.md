@@ -21,3 +21,7 @@ This repo contains all things Swift and UIKit that I am currently or have been e
 [Bundle](Extensions/Bundle-Main.md) </br>
 [UIImageView](Extensions/UIImageView.md) </br>
 [UIAlert](Extensions/VC-Alert.md)
+
+## Persistence
+[User Defaults](Data Persistence/UserDefaults.md) </br>
+[File Manager](Data Persistence/DocumentsDirectory.md)
