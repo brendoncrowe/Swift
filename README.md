@@ -8,7 +8,7 @@ This repo contains all things Swift and UIKit that I am currently or have been e
 
 ## Functions & Classes
 [Search Bar Filter Function](HelperFunctions/SearchBarFilter.md) </br>
-[NetWork Helper Class](HelperFunctions/NetworkHelper.md)
+[Network Helper Class](HelperFunctions/NetworkHelper.md)
 
 ## Arrays
 [Flattening Arrays](Arrays/FlatteningArrays.md)
