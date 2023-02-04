@@ -24,4 +24,4 @@ This repo contains all things Swift and UIKit that I am currently or have been e
 
 ## Persistence
 [User Defaults](DataPersistence/UserDefaults.md) </br>
-[File Manager](DataPersistence/DocumentsDirectory.md)
+
