@@ -23,5 +23,5 @@ This repo contains all things Swift and UIKit that I am currently or have been e
 [UIAlert](Extensions/VC-Alert.md)
 
 ## Persistence
-[User Defaults](Data Persistence/UserDefaults.md) </br>
-[File Manager](Data Persistence/DocumentsDirectory.md)
+[User Defaults](DataPersistence/UserDefaults.md) </br>
+[File Manager](DataPersistence/DocumentsDirectory.md)
