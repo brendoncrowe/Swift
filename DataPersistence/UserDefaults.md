@@ -24,4 +24,21 @@ class UserInfo {
     private init() {}
 }
 ```
-### Code will be needed in order to write the user's name as well as read the user's name from User Defaults
+### Code will be needed in order to write the user's name
+A function to set the user's name
+``` Swift 
+  func setUserName(name: String) {
+        UserDefaults.standard.set(name, forKey: UserInfoKeys.userName)
+    }
+  ```
+ Use this function whenever you want to save the user's name
+ 
+ ### Code to read the user's name
+ ``` Swift
+     func getUsername() -> String? {
+        guard let userName = UserDefaults.standard.object(forKey: UserInfoKeys.userName) as? String else {
+            return nil
+        }
+        return userName
+    }
+```
