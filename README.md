@@ -17,6 +17,9 @@ This repo contains all things Swift and UIKit that I am currently or have been e
 [Table View ](TableViews/TableView.md) </br>
 [Table View Sections](TableViews/TableViewSections.md)
 
+## Collection View 
+[Configuring Collection View Cell](CollectionView/CollectionViewCells.md)
+
 ## Extensions
 [Bundle](Extensions/Bundle-Main.md) </br>
 [UIImageView](Extensions/UIImageView.md) </br>
@@ -32,4 +35,5 @@ This repo contains all things Swift and UIKit that I am currently or have been e
 ## HTTPMethods (URLSession)
 [Get Request](HTTPMethods/GetRequest.md) </br>
 [Post Request](HTTPMethods/PostRequest.md)
+
 
