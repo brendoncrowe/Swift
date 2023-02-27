@@ -30,5 +30,6 @@ This repo contains all things Swift and UIKit that I am currently or have been e
 [Recursion](Recursion/Recursion.md)
 
 ## HTTPMethods (URLSession)
-[Get Request](HTTPMethods/GETREADME.md)
+[Get Request](HTTPMethods/GetRequest.md) </br>
+[Post Request](HTTPMethods/PostRequest.md)
 
