@@ -45,4 +45,3 @@ extension Joke: CustomStringConvertible {
 }
 
 ```
-It can be helpful to write a singleton class that wraps arounds URLSession (NetworkHelper), but with the above code, there are several things to be noted.
