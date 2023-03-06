@@ -23,3 +23,5 @@ extension UIView {
     }
     
  ```
+### Example
+![UIView-Rounded](Assets/UIViewRounded.png)
