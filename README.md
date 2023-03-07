@@ -18,7 +18,8 @@ This repo contains my own notes on various swift topics and concepts.
 [Table View Sections](TableViews/TableViewSections.md)
 
 ## Collection View 
-[Configuring Collection View Cell](CollectionView/CollectionViewCells.md)
+[Configuring Collection View Cell](CollectionView/CollectionViewCells.md) </br>
+[CollectionView-AutoScroll](CollectionView/CollectionViewAutoScroll.md)
 
 ## Extensions
 [Bundle](Extensions/Bundle-Main.md) </br>
