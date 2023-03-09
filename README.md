@@ -33,6 +33,7 @@ This repo contains my own notes on various swift topics and concepts.
 
 ## DSA
 [Recursion](DSA/Recursion.md)
+[Linked List](DSA/LinkedList.md)
 
 ## HTTPMethods (URLSession)
 [Get Request](HTTPMethods/GetRequest.md) </br>
