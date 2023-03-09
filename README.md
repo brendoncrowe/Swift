@@ -32,7 +32,7 @@ This repo contains my own notes on various swift topics and concepts.
 [Documents Directory via File Manager](DataPersistence/FileManager.md) </br>
 
 ## DSA
-[Recursion](DSA/Recursion.md)
+[Recursion](DSA/Recursion.md) </br>
 [Linked List](DSA/LinkedList.md)
 
 ## HTTPMethods (URLSession)
