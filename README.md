@@ -6,12 +6,13 @@ This repo contains my own notes on various swift topics and concepts.
 [JSON Decoding Custom Keys](JSON/JSONCustomKeys.md) </br>
 [JSON Encoding](JSON/JSONEncoding.md)
 
-## Functions & Classes
+## Functions & Singleton Helper Classes
 [Search Bar Filter Function](HelperFunctions/SearchBarFilter.md) </br>
 [Network Helper Class](HelperFunctions/NetworkHelper.md)
 
-## Arrays
-[Flattening Arrays](Arrays/FlatteningArrays.md)
+## Arrays & Closures
+[Flattening Arrays](Arrays/FlatteningArrays.md) </br>
+[Closures](Arrays/Closures.md)
 
 ## Table View
 [Table View ](TableViews/TableView.md) </br>
