@@ -44,4 +44,7 @@ This repo contains my own notes on various swift topics and concepts.
 ## Programmatic UI
 [Deleting Storyboard & needed code](ProgrammaticUI/DeleteStoryBoard.md)
 
+## Animations
+[Basic Animations](UIKit-Animations/Animations.md)
+
 
