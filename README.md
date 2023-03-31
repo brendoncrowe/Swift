@@ -1,6 +1,10 @@
 # Swift
 This repo contains my own notes on various swift topics and concepts.
 
+## General </br> 
+[NavBar Appearance](General/NavBarAppearance.md)
+
+
 ## JSON </br> 
 [JSON Decoding](JSON/JSONDecoding.md) </br>
 [JSON Decoding Custom Keys](JSON/JSONCustomKeys.md) </br>
