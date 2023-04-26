@@ -5,6 +5,7 @@ REST is commonly used by people on web systems to interact with each other. For 
 <ins>The URLSession class and related classes provide an API for downloading data from and uploading data to endpoints indicated by URLs.</ins>
 
 Breakdown of a url</br>
+![url-image](Assets/webURL.png)
 
 Using the endpoint for a random joke, a get request is made in the following way...
 
