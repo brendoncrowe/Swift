@@ -27,7 +27,7 @@ The console output if printed
 /Users/*user name*/Library/Developer/XCPGDevices/8CB01CF9-BEA3-4862-8051-DEE9F9209625/data/Containers/Data/Application/D60B7E68-6261-439C-9931-88EC05801663/Documents/fileName.plist
 ```
 Now that there is a path to a specific file in the documents directory, CRUD mehtods can be performed.
-Below is a generic singleton class that contains CRUD functions that can be used
+Below is a generic class that contains CRUD functions that can be used
 ``` Swift
 import Foundation
 
