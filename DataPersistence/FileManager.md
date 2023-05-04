@@ -16,3 +16,13 @@ let documentsDirectory = FileManager.default.urls(for: .documentDirectory, in: .
 
 ```
 The result of the code above is an array of URL objects, which point to the directories that match the search. But there's only one Documents directory, so you request the first result of the search to assign to the constant.
+
+2. Since the url path to the documents directory has been accessed, the next step involves providing a full path that provides a filename and extension as well, which can be appended.
+``` Swift
+let fullPath = documentsDirectory.append(path: "fileName.plist") // .appendingPathComponent("fileName").appendingPathExtension("plist") can also be used
+```
+The console output if printed
+``` Swift
+/* 
+/Users/*user name*/Library/Developer/XCPGDevices/8CB01CF9-BEA3-4862-8051-DEE9F9209625/data/Containers/Data/Application/D60B7E68-6261-439C-9931-88EC05801663/Documents/fileName.plist
+```
