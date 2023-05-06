@@ -15,7 +15,7 @@ Key-Value Observing in Swift
 
 In Objective-C, you can think of objects as having keys that are strings (the property names) and value (the value for that property name).  Whenever the value for a key changes, it broadcasts the new value to any observers who might be listening.  We can create observers to receive updates about these changes, and execute code accordingly.
 
-To do so, we'll need to create a class that's able to have its property observed:
+To do so, create a class that's able to have its property observed:
 
 ```swift
 @objc class Dog: NSObject {
@@ -34,7 +34,7 @@ It must:
 - Have any properties that you want to observe be `@objc` and `dynamic`
 - Have any properties that you want to observe be able to be read by the Objective-C runtime.
 
-Now that we have our `Dog` class, we can build a `DogWalker` class that takes in a `Dog`, and prints a message when it has a birthday:
+Now that there is a `Dog` class, a `DogWalker` class can be created that takes in a `Dog`, and prints a message when it has a birthday:
 
 ```swift
 class DogWalker {
@@ -58,9 +58,9 @@ class DogWalker {
 }
 ```
 
-Note the odd syntax after the `observe` call.  The "\." syntax is called a [Key Path](https://docs.swift.org/swift-book/ReferenceManual/Expressions.html).  It lets us access properties of the dog that we are observing.
+Note the odd syntax after the `observe` call.  The "\." syntax is called a [Key Path](https://docs.swift.org/swift-book/ReferenceManual/Expressions.html).  It allows accessing the properties of the dog that is being observed.
 
-We can create another class with a separate observation:
+Another class with a separate observation can be created:
 
 ```swift
 class DogGroomer {
@@ -84,7 +84,7 @@ class DogGroomer {
 }
 ```
 
-Then, we can create a dog, its walker and groomer, then have the dog have a birthday:
+Then, create a dog, its walker and groomer, then have the dog have a birthday:
 
 ```swift
 let snoopy = Dog(name: "Snoopy", age: 5)
@@ -99,4 +99,4 @@ snoopy.age += 1
 // Hey Snoopy, happy birthday from the dog walker!
 ```
 
-We have successfully configured multiple observers to watch changes to the same property in a given subject.
+Multiple observers have successfully been configured to watch changes to the same property in a given subject.
