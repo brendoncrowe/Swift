@@ -45,6 +45,9 @@ This repo contains my own notes on various swift topics and concepts.
 [Get Request](HTTPMethods/GetRequest.md) </br>
 [Post Request](HTTPMethods/PostRequest.md)
 
+## Observing Changes
+[KVO](ObservingChanges/KVO.md)
+
 ## Programmatic UI
 [Deleting Storyboard & needed code](ProgrammaticUI/DeleteStoryBoard.md)
 
